@@ -1,6 +1,6 @@
 // src/components/EditPermitForm.js
 import React, { useState, useEffect } from 'react';
-import { useParams, useNavigate } from 'react-router-dom';
+import { useParams, useNavigate, Link } from 'react-router-dom';
 import { useQuery, useMutation } from '@apollo/client';
 import { GET_PERMIT_BY_ID } from '../graphql/queries';
 import { UPDATE_PERMIT_MUTATION } from '../graphql/mutations';
